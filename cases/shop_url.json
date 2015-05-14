@@ -1,0 +1,29 @@
+{
+    "name":"login",
+    "type":"post",
+    "url":"http://172.16.28.240:8080/app-api/invoke",
+    "requestType":"POST",
+    "contentType":"json",
+    "headers":
+    {
+        "Content-Type":"application/json"
+    },
+
+    "urlParams":
+    {
+        "appName":"melody",
+        "appVersion":"0.1.0",
+        "ksid":"03lKrDZSLC5v4onOjjDGwaZcvcnV9I4x67Cw"
+    },
+    
+    "requestParams":
+    {
+        "ncp": "1.0.0",
+        "id": "af992f46-ed4b-41a6-90a4-507eb33c733d",
+        "type": "invoke.request",
+        "method": "napos.restaurant.getRestaurantView",
+         "params": {
+            "restaurantId": 51812673
+        }
+    } 
+}

@@ -1,0 +1,30 @@
+{
+    "name":"update food",
+    "type":"post",
+    "url":"http://localhost:8080/app-api/invoke",
+    "requestType":"POST",
+    "contentType":"json",
+    "headers":
+    {
+        "Content-Type":"application/json"
+    },
+
+    "urlParams":
+    {
+        "appName":"melody",
+        "appVersion":"0.1.0",
+        "ksid":"iE8Fvlirr0oSVgQojejhbsyRdeFWMryACaxw"
+    },
+    
+    "requestParams":
+    {
+        "ncp": "1.0.0",
+        "id": "af992f46-ed4b-41a6-90a4-507eb33c733d",
+        "type": "invoke.request",
+        "method": "napos.food.updateFood",
+        "params": {
+            "foodId": "1015312",
+            "update":{"price":23}
+        }
+    }
+}

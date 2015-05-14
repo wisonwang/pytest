@@ -1,0 +1,29 @@
+{
+    "name":"login",
+    "type":"post",
+    "url":"http://localhost:8080/app-api/invoke",
+    "requestType":"POST",
+    "contentType":"json",
+    "headers":
+    {
+        "Content-Type":"application/json"
+    },
+
+    "urlParams":
+    {
+        "appName":"melody",
+        "appVersion":"0.1.0",
+        "ksid":"imO5RGY7ITgbey3iGJVz1oYG4mPMJP9Z6mBA"
+    },
+    
+    "requestParams":
+    {
+        "ncp": "1.0.0",
+        "id": "af992f46-ed4b-41a6-90a4-507eb33c733d",
+        "type": "invoke.request",
+        "method": "misc.device.unbindDevice",
+         "params": {
+            "restaurantId": 89374929
+        }
+    } 
+}

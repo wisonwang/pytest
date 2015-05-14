@@ -1,0 +1,30 @@
+{
+    "name":"login",
+    "type":"post",
+    "url":"http://localhost:8080/app-api/invoke",
+    "requestType":"POST",
+    "contentType":"json",
+    "headers":
+    {
+        "Content-Type":"application/json"
+    },
+
+    "urlParams":
+    {
+        "appName":"melody",
+        "appVersion":"0.1.0"
+    },
+    
+    "requestParams":
+    {
+        "ncp": "1.0.0",
+        "id": "af992f46-ed4b-41a6-90a4-507eb33c733d",
+        "type": "invoke.request",
+        "method": "secure.login.loginByUsername",
+        "params": {
+            "username": "nptest_admin", 
+            "password": "123456abc", 
+            "captcha": "7451"
+        }
+    } 
+}

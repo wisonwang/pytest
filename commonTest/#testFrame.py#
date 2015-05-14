@@ -1,0 +1,12 @@
+
+from frame.case import TestCaseItem
+
+def testFrame():
+    testItem = TestCaseItem('sample', 'test', '{}')
+    testItem.run()
+    print testItem.toString()
+
+
+    
+if __name__ == '__main__':
+    testFrame()
